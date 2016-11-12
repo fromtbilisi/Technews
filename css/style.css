@@ -39,8 +39,26 @@ h2{
 	height: 200px;
 	display: inline-block;
 	margin-right: 15px;
-	background-color: #dbd8d7; 
-	
+	position: relative;
+}
+
+.news:hover .title-block{
+	height: 200px;
+	opacity: .9;
+}
+
+.news img{
+	display: block;
+}
+.news .title-block{
+	width: 230px;
+	height: 40px;
+	background-color: #dbd8d7;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	transition-property: height;
+	transition-duration: 2s;
 }
 
 .news:nth-of-type(4) {
